@@ -1,1 +1,2 @@
+Zope2
 zc.buildout
