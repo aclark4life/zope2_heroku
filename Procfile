@@ -1,1 +1,1 @@
-web: ./bin/buildout
+web: ./bin/buildout ; ./bin/zope2 fg
