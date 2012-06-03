@@ -1,1 +1,1 @@
-web: buildout ; zope2 fg
+web: buildout ; bin/zope2 fg
