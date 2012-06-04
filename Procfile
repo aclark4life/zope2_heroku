@@ -1,1 +1,1 @@
-web: ./runapp.sh
+web: python path/to/zope2
