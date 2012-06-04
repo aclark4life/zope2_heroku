@@ -23,6 +23,7 @@ Zope2==2.13.14
 ZopeUndo==2.12.0
 distribute==0.6.27
 docutils==0.7
+gocept.recipe.env==1.0
 initgroups==2.13.0
 manuel==1.1.1
 mechanize==0.2.5
