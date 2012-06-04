@@ -1,1 +1,1 @@
-web: python path/to/zope2
+web: buildout; bin/zope2 fg
