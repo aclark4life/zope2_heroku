@@ -2,7 +2,4 @@
 Zope2 on Heroku
 ===============
 
-Do this::
-
-    $ git clone git://github.com/aclark4life/zope2-heroku.git
-
+Proof of concept, currently stores data in git. Relstorage integration is the next step.
