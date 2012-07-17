@@ -40,7 +40,7 @@ zc.buildout==1.5.2
 zc.lockfile==1.0.0
 zc.recipe.egg==1.2.2
 zdaemon==2.0.4
-zope2_bootstrap==0.0.4
+zope2_bootstrap==0.0.7
 zope.annotation==3.5.0
 zope.broken==3.6.0
 zope.browser==1.3
