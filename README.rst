@@ -9,7 +9,7 @@ Zope2 on Heroku
 Known issues
 ------------
 
-(Keep in mind there are two distinct phases: push, and app start. Deps are, and must be, fetched during push.)
+(Keep in mind there are two distinct phases to app launch: push, and app start. Deps are, and must be, fetched during push.)
 
 - A dep fetch may timeout during push e.g. https://gist.github.com/3129617. If so, just push again.
 
