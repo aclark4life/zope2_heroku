@@ -22,6 +22,7 @@ ZConfig==2.9.0
 ZODB3==3.10.5
 Zope2==2.13.14
 ZopeUndo==2.12.0
+collective.recipe.omelette==0.15
 distribute==0.6.27
 docutils==0.7
 gocept.recipe.env==1.0
