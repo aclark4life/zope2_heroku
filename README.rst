@@ -9,6 +9,8 @@ Zope2 on Heroku
 Known issues
 ------------
 
+(Keep in mind there are two distinct phases: push, and app start. Deps are, and must be, fetched during push.)
+
 - A dep fetch may timeout during push e.g. https://gist.github.com/3129617. If so, just push again.
 
 - All deps must be listed in requirements.txt else zc.buildout will try to fetch during app start, and the build may fail due to: ``Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch.``
