@@ -30,7 +30,7 @@ gocept.recipe.env==1.0
 initgroups==2.13.0
 manuel==1.1.1
 mechanize==0.2.5
-plone.recipe.zope2instance==4.2.1
+plone.recipe.zope2instance==4.2.2
 pytz==2012c
 tempstorage==2.12.1
 transaction==1.1.1
