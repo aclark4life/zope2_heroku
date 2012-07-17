@@ -9,8 +9,8 @@ Zope2 on Heroku
 Known issues
 ------------
 
-- All deps must be listed in requirements.txt else zc.buildout will try to fetch, and the build may fail due to: ``Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch.``
+- A dep fetch may timeout during push e.g. https://gist.github.com/3129617. If so, just push again.
 
-- A dep may timeout e.g. https://gist.github.com/3129617. If so just push again.
+- All deps must be listed in requirements.txt else zc.buildout will try to fetch during app start, and the build may fail due to: ``Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch.``
 
-- Even with all the deps listed, the build may occasionally fail due to: ``Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch.`` Usually a ``heroku restart`` fixes this.
+- Even with all the deps listed, the app may occasionally fail to start due to: ``Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch.`` Usually a ``heroku restart`` fixes this.
