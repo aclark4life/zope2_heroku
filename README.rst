@@ -9,7 +9,7 @@ Zope2 on Heroku
 Known issues
 ------------
 
-Keep in mind that on Heroku there are two distinct phases to an application launch: git push, and application start. Dependencies are, and must be, fetched during the push phase. If we try to run buildout for anything other than creating scripts, the application will not start within 60 seconds and the launch will fail.
+Keep in mind on Heroku there are two distinct phases to an application launch: git push, and application start. Dependencies are, and must be, fetched during the push phase. If we try to run buildout for anything other than creating scripts, the application will not start within 60 seconds and the launch will fail.
 
 - A dependency fetch may timeout during push. If so, just push again.
 
