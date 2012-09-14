@@ -11,6 +11,6 @@ Known issues
 
 Keep in mind that on Heroku there are two distinct phases to an application launch: git push, and application start. Dependencies are, and must be, fetched during the push phase. If we try to run buildout for anything other than creating scripts, the application will not start within 60 seconds and the launch will fail.
 
-- A dependency fetch may timeout during push e.g. https://gist.github.com/3129617. If so, just push again.
+- A dependency fetch may timeout during push. If so, just push again.
 
-- Even with all the dependencies listed, the application may occasionally fail to start. Usually a ``heroku restart`` fixes this.
+- Even with all the dependencies listed, the application may occasionally fail to start. A ``heroku restart`` usually fixes this.
