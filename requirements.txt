@@ -36,7 +36,7 @@ tempstorage==2.12.1
 transaction==1.1.1
 zExceptions==2.13.0
 zLOG==2.11.1
-zc.buildout==1.6.3
+zc.buildout==2.0.1
 zc.lockfile==1.0.0
 zc.recipe.egg==1.2.2
 zdaemon==2.0.4
