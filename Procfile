@@ -1,1 +1,1 @@
-web: buildout; bin/zope2 console
+web: buildout; bin/zope console
